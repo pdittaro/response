@@ -10,7 +10,6 @@ class LinkedList(object):
 
   def __init__(self, items=None):
     self.head = None
-    self.lookup = []
     if items:
       for item in reversed(items):    # Added a reversed here to make the init more intuitive
         self.push(item)
